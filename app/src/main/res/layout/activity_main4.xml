@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BA55D3"
+    tools:context="com.example.codetribe.quizzapplication.Main4Activity"
+
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+
+            <TextView
+                android:id="@+id/waggs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                
+                android:text="1. Refer to Wives And Girlfriends of high-profile professional athletes" />
+
+            <RadioGroup
+                android:id="@+id/wags"
+                android:padding="15sp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:id="@+id/wig"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="WGS" />
+
+                <RadioButton
+                    android:id="@+id/wife"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="WifeG" />
+
+                <RadioButton
+                    android:id="@+id/wagges"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="WAGGS" />
+
+                <RadioButton
+                    android:id="@+id/wag"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="WAGS" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/boss"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="2. Who is the male role leader in The 1987 Dirty Movie" />
+
+            <RadioGroup
+                android:id="@+id/starring"
+                android:padding="15sp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:id="@+id/norris"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Chuck Norris" />
+
+                <RadioButton
+                    android:id="@+id/patrick"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Swayze Patrick" />
+
+                <RadioButton
+                    android:id="@+id/washington"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Danzel Washington" />
+
+                <RadioButton
+                    android:id="@+id/jet"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Jet Li" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/opra"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="3. Is the world renowned queen of talk show and owns HARPO" />
+
+            <RadioGroup
+                android:id="@+id/harpo"
+                android:padding="15sp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:id="@+id/gayle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Gayle" />
+
+                <RadioButton
+                    android:id="@+id/tyra"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tyra Banks" />
+
+                <RadioButton
+                    android:id="@+id/Neoleen"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Noeleen M" />
+
+                <RadioButton
+                    android:id="@+id/oprah"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Oprah Winfrey" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/ice"
+                android:layout_width="match_parent"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"
+                android:text="4. Leornard diCaprio played leading role in this romantic disaster film " />
+
+            <RadioGroup
+                android:id="@+id/titanik"
+                android:padding="15sp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:id="@+id/cat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Catch me if you can" />
+
+                <RadioButton
+                    android:id="@+id/titanic"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Titanic" />
+
+                <RadioButton
+                    android:id="@+id/Bads"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Badass" />
+
+                <RadioButton
+                    android:id="@+id/italy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:text="From Italy with love" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/vandros"
+                android:layout_width="match_parent"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"
+                android:text="5. Male artist who's latestes sigle that won AMA is Dance With My Father " />
+
+            <RadioGroup
+                android:id="@+id/luther"
+                android:padding="15sp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:id="@+id/berry"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Berry White" />
+
+                <RadioButton
+                    android:id="@+id/lvandros"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Luther Vandross" />
+
+                <RadioButton
+                    android:id="@+id/eddie"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Eddie Lavert" />
+
+                <RadioButton
+                    android:id="@+id/kelly"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="R.Kelly" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/mamaA"
+                android:layout_width="match_parent"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"
+                android:text="6. Who is the artist also known as Mama Africa" />
+
+            <RadioGroup
+                android:padding="15sp"
+                android:id="@+id/mama"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:id="@+id/mariam"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="mariam Makeba" />
+
+                <RadioButton
+                    android:id="@+id/chakachaka"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Yvonne Chakachaka" />
+
+                <RadioButton
+                    android:id="@+id/dana"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Simphiwe Dana" />
+
+                <RadioButton
+                    android:id="@+id/asa"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Asa" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/SADE"
+                android:layout_width="match_parent"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"
+                android:text="7. Whats the name of Nigerian born artist known professionally as Sade " />
+
+            <RadioGroup
+                android:padding="15sp"
+                android:id="@+id/Sade"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:id="@+id/tiwa"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tiwa Savage" />
+
+                <RadioButton
+                    android:id="@+id/a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bukola Elemide" />
+
+                <RadioButton
+                    android:id="@+id/SadE"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ChecHelen Folasade Adu" />
+
+                <RadioButton
+                    android:id="@+id/eve"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Eva Alordiah" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/kim"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="8. Kanye West and Kim Kardishain 1st born is name who" />
+
+            <RadioGroup
+                android:padding="15sp"
+                android:id="@+id/kardishan"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:id="@+id/north"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="North West" />
+
+                <RadioButton
+                    android:id="@+id/norty"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="North West Kardishain" />
+
+                <RadioButton
+                    android:id="@+id/nick"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Nicky West" />
+
+                <RadioButton
+                    android:id="@+id/kandall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Kandall Kardishian" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/sport"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="9. The world highest paid athletes\spots person" />
+
+            <RadioGroup
+                android:padding="15sp"
+                android:id="@+id/sports"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:id="@+id/messi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Leo Messi" />
+
+                <RadioButton
+                    android:id="@+id/ronaldo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Christian Ronaldo" />
+
+                <RadioButton
+                    android:id="@+id/floyd"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Floyd Mayweather Jr" />
+
+                <RadioButton
+                    android:id="@+id/williams"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Serena \William" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/cape"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="10. 2016 beautiful city finalist city situated in South Africa" />
+
+            <RadioGroup
+                android:id="@+id/ctp"
+                android:padding="15sp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:id="@+id/london"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="East London" />
+
+                <RadioButton
+                    android:id="@+id/durban"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Durban" />
+
+                <RadioButton
+                    android:id="@+id/Joburg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Johannesburg" />
+
+                <RadioButton
+                    android:id="@+id/capet"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cape Town" />
+
+                <Button
+                    android:id="@+id/total"
+                    android:layout_margin="48dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="total" />
+
+            </RadioGroup>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

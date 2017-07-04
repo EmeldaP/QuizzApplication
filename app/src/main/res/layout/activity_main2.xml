@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.codetribe.quizzapplication.Main2Activity"
+    android:background="@drawable/cricket"
+
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/coachtx"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFFFF"
+                android:text="1. Who is the coach who won Champions Trophy 2017 with Pakistan" />
+
+            <RadioGroup
+                android:id="@+id/coach"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:id="@+id/arthur"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFFFFF"
+                    android:text="Mickey Arthur" />
+
+                <RadioButton
+                    android:id="@+id/ntini"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFFFFF"
+                    android:text="Makhaya Ntini" />
+
+                <RadioButton
+                    android:id="@+id/boucher"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFFFFF"
+                    android:text="Mark Boucher" />
+
+                <RadioButton
+                    android:id="@+id/zono"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFFFFF"
+                    android:text="Gabo Zondo" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/ranktx"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFFFF"
+                android:text="2. Who is the no1 ranking in Test format in the world?" />
+
+            <RadioGroup
+                android:id="@+id/rank"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:id="@+id/pakistan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFFFFF"
+                    android:text="Pakistan" />
+
+                <RadioButton
+                    android:id="@+id/england"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFFFFF"
+                    android:text="England" />
+
+                <RadioButton
+                    android:id="@+id/RSA"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFFFFF"
+                    android:text="South Africa" />
+
+                <RadioButton
+                    android:id="@+id/australia"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFFFFF"
+                    android:text="Australia" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/captaintx"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFFFF"
+                android:text="3. Who is the youngest captain to captain South Africa in all cricket format?" />
+
+            <RadioGroup
+                android:id="@+id/captain"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:id="@+id/devillers"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFFFFF"
+                    android:text="AB de Villers" />
+
+                <RadioButton
+                    android:id="@+id/smith"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFFFFF"
+                    android:text="Greame Smith" />
+
+                <RadioButton
+                    android:id="@+id/duplessis"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFFFFF"
+                    android:text="Faf du Plessis" />
+
+                <RadioButton
+                    android:id="@+id/kallis"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFFFFF"
+                    android:text="Jacques Kallis" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/overtx"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFFFF"
+                android:text="4. How many balls are there in an over?" />
+
+            <RadioGroup
+                android:id="@+id/over"
+                android:layout_width="match_parent"
+                android:textColor="#FFFFFF"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:id="@+id/four"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFFFFF"
+                    android:text="Four" />
+
+                <RadioButton
+                    android:id="@+id/six"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFFFFF"
+                    android:text="Six" />
+
+                <RadioButton
+                    android:id="@+id/five"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFFFFF"
+                    android:text="Five" />
+
+                <RadioButton
+                    android:id="@+id/seven"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFFFFF"
+                    android:text="Seven" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/t20tx"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFFFF"
+                android:text="5. How many overs are there in t20 format?" />
+
+            <RadioGroup
+                android:id="@+id/t20"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:id="@+id/ten"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFFFFF"
+                    android:text="Ten" />
+
+                <RadioButton
+                    android:id="@+id/twenty"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFFFFF"
+                    android:text="Twenty" />
+
+                <RadioButton
+                    android:id="@+id/thirty"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFFFFF"
+                    android:text="Thirty" />
+
+                <RadioButton
+                    android:id="@+id/forty"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFFFFF"
+                    android:text="Forty" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/umpiretx"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFFFF"
+                android:text="6. When an umpire signal waves what does it mean?" />
+
+            <RadioGroup
+                android:id="@+id/umpire"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:id="@+id/runout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFFFFF"
+                    android:text="Run out" />
+
+                <RadioButton
+                    android:id="@+id/fourruns"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFFFFF"
+                    android:text="Four runs" />
+
+                <RadioButton
+                    android:id="@+id/out"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFFFFF"
+                    android:text="Out" />
+
+                <RadioButton
+                    android:id="@+id/sixruns"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFFFFF"
+                    android:text="Six runs" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/ipltx"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFFFF"
+                android:text="7. Where does IPL take place?" />
+
+            <RadioGroup
+                android:id="@+id/ipl"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:id="@+id/sl"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFFFFF"
+                    android:text="Sri Lanka" />
+
+                <RadioButton
+                    android:id="@+id/wi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFFFFF"
+                    android:text="West Indies" />
+
+                <RadioButton
+                    android:id="@+id/zim"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFFFFF"
+                    android:text="Zimbabwe" />
+
+                <RadioButton
+                    android:id="@+id/india"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFFFFF"
+                    android:text="India" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/bowlertx"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFFFF"
+                android:text="8. Who is the fastest highest wicket taker in Test format in South Africa" />
+
+            <RadioGroup
+                android:id="@+id/bowler"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:id="@+id/pollock"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFFFFF"
+                    android:text="Shaun Pollock" />
+
+                <RadioButton
+                    android:id="@+id/morkel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFFFFF"
+                    android:text="Morne Morkel" />
+
+                <RadioButton
+                    android:id="@+id/steyn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFFFFF"
+                    android:text="Dale Steyn" />
+
+                <RadioButton
+                    android:id="@+id/makhaya"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFFFFF"
+                    android:text="Makhaya Ntin" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/playerstx"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFFFF"
+                android:text="9. How many player of a fielding team can be on the field " />
+
+            <RadioGroup
+                android:id="@+id/players"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:id="@+id/nine"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFFFFF"
+                    android:text="Nine" />
+
+                <RadioButton
+                    android:id="@+id/eleven"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFFFFF"
+                    android:text="Eleven" />
+
+                <RadioButton
+                    android:id="@+id/thirteen"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFFFFF"
+                    android:text="Thirteen" />
+
+                <RadioButton
+                    android:id="@+id/fifteen"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFFFFF"
+                    android:text="Fifteen" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/nzlndtx"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFFFF"
+                android:text="10. The national team of New Zealand is called what the......" />
+
+            <RadioGroup
+                android:id="@+id/NZ"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:id="@+id/nz"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFFFFF"
+                    android:text="New Zealand" />
+
+                <RadioButton
+                    android:id="@+id/proteas"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFFFFF"
+                    android:text="Proteas" />
+
+                <RadioButton
+                    android:id="@+id/allBlacks"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFFFFF"
+                    android:text="All Blacks" />
+
+                <RadioButton
+                    android:id="@+id/tigers"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFFFFF"
+                    android:text="Tigers" />
+            </RadioGroup>
+            <Button
+                android:id="@+id/score"
+                android:layout_width="match_parent"
+                android:layout_margin="48dp"
+                android:layout_height="48dp"
+                android:textColor="#FFFFFF"
+                android:text="score" />
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

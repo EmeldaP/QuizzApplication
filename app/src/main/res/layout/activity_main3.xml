@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.codetribe.quizzapplication.Main3Activity"
+    android:background="@drawable/africa2">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+
+            <TextView
+                android:id="@+id/les"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:textColor="#FFF"
+                android:text="1. What is the landlocked country in southern Africa completely surrounded by South Africa" />
+
+            <RadioGroup
+                android:id="@+id/lesotho"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:id="@+id/leso"
+                    android:layout_width="wrap_content"
+                    android:textColor="#FFF"
+                    android:layout_height="wrap_content"
+                    android:text="Lesotho" />
+
+                <RadioButton
+                    android:id="@+id/botswana"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Botswana"
+                    android:textColor="#FFF"
+                     />
+
+                <RadioButton
+                    android:id="@+id/zimbabwe"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Zimbabwe"
+                    android:textColor="#FFF"/>
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/cam"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#FFF"
+                android:text="2.Whats is a country in Central Africa that neighbours Nigeria and Chad" />
+
+            <RadioGroup
+                android:id="@+id/cameron"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:id="@+id/gabon"
+                    android:textColor="#FFF"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Gabon" />
+
+                <RadioButton
+                    android:id="@+id/camerron"
+                    android:layout_width="wrap_content"
+                    android:textColor="#FFF"
+                    android:layout_height="wrap_content"
+                    android:text="Cameroon" />
+
+                <RadioButton
+                    android:id="@+id/etg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFF"
+                    android:text="Equotarial Guinea" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/female"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#FFF"
+                android:text="3. First Malawi female president " />
+
+            <RadioGroup
+                android:id="@+id/president"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:id="@+id/banda"
+                    android:textColor="#FFF"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Joyce Banda" />
+
+                <RadioButton
+                    android:id="@+id/ellen"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFF"
+                    android:text="Ellen Johnson Sirleaf" />
+
+                <RadioButton
+                    android:id="@+id/zuma"
+                    android:textColor="#FFF"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Nkosisana Zuma" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/lang"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#FFF"
+                android:text="6.South African official language" />
+
+            <RadioGroup
+                android:id="@+id/language"
+                android:textColor="#FFF"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:id="@+id/shona"
+                    android:layout_width="wrap_content"
+                    android:textColor="#FFF"
+                    android:layout_height="wrap_content"
+                    android:text="Shona" />
+
+                <RadioButton
+                    android:textColor="#FFF"
+                    android:id="@+id/ndebele"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ndebele" />
+
+                <RadioButton
+                    android:id="@+id/port"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFF"
+                    android:text="Portgues" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/lp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#FFF"
+                android:text="6. Maphungube Heritage site is lovated in which province " />
+
+            <RadioGroup
+                android:id="@+id/Limpopo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:id="@+id/gauteng"
+                    android:textColor="#FFF"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Gauteng Province" />
+
+                <RadioButton
+                    android:id="@+id/mphumalanga"
+                    android:layout_width="wrap_content"
+                    android:textColor="#FFF"
+                    android:layout_height="wrap_content"
+                    android:text="Mphumalanga Province" />
+
+                <RadioButton
+                    android:id="@+id/limpopo"
+                    android:textColor="#FFF"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Limpopop Province" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/Desert"
+                android:layout_width="match_parent"
+                android:textColor="#FFF"
+                android:layout_height="wrap_content"
+                android:text="8. what is the largest semi arid sand in the southern Africa" />
+
+            <RadioGroup
+                android:id="@+id/desert"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:id="@+id/sahara"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFF"
+                    android:text="Sahara desert" />
+
+                <RadioButton
+                    android:id="@+id/kalari"
+                    android:layout_width="wrap_content"
+                    android:textColor="#FFF"
+                    android:layout_height="wrap_content"
+                    android:text="Kalahari Desert" />
+
+                <RadioButton
+                    android:id="@+id/amazon"
+                    android:layout_width="wrap_content"
+                    android:textColor="#FFF"
+                    android:layout_height="wrap_content"
+                    android:text="Amazon" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/masaipeople"
+                android:layout_width="match_parent"
+                android:textColor="#FFF"
+                android:layout_height="wrap_content"
+                android:text="Nilotic ethnic group inhabiting southern Kenya and northern Tanzania" />
+
+            <RadioGroup
+                android:id="@+id/masai"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <RadioButton
+                    android:id="@+id/swahili"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFF"
+                    android:text="Swahili people" />
+
+                <RadioButton
+                    android:id="@+id/xhosa"
+                    android:layout_width="wrap_content"
+                    android:textColor="#FFF"
+                    android:layout_height="wrap_content"
+                    android:text="Xhosa People" />
+
+                <RadioButton
+                    android:id="@+id/maasai"
+                    android:layout_width="wrap_content"
+                    android:textColor="#FFF"
+                    android:layout_height="wrap_content"
+                    android:text="Maasai People" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/pres"
+                android:layout_width="match_parent"
+                android:textColor="#FFF"
+                android:layout_height="wrap_content"
+                android:text="How many countries are in the countinent of Africa?" />
+
+            <RadioGroup
+                android:id="@+id/countries"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:id="@+id/fortyfour"
+                    android:textColor="#FFF"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Forty four" />
+
+                <RadioButton
+                    android:id="@+id/fiftyfive"
+                    android:textColor="#FFF"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Fifty five" />
+
+                <RadioButton
+                    android:id="@+id/sixtysix"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFF"
+                    android:text="Sixty six" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/moro"
+                android:textColor="#FFF"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="What is the capital city of Morocco" />
+
+            <RadioGroup
+                android:id="@+id/morocco"
+                android:layout_width="match_parent"
+                android:textColor="#FFF"
+                android:layout_height="match_parent" >
+
+                <RadioButton
+                    android:id="@+id/jabu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFF"
+                    android:text="Jabu" />
+            </RadioGroup>
+
+            <RadioButton
+                android:id="@+id/addis"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#FFF"
+                android:text="Addis Ababa" />
+
+            <RadioButton
+                android:id="@+id/casab"
+                android:textColor="#FFF"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Casablanca" />
+
+            <TextView
+                android:id="@+id/au"
+                android:textColor="#FFF"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="AU is an organisation meant to strenhthen Africans countries together. what is it accronomy for" />
+
+            <RadioGroup
+                android:id="@+id/afri"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+
+                <RadioButton
+                    android:id="@+id/African"
+                    android:textColor="#FFF"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="African Union" />
+
+                <RadioButton
+                    android:id="@+id/aus"
+                    android:textColor="#FFF"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Australia" />
+
+                <RadioButton
+                    android:id="@+id/auin"
+                    android:layout_width="wrap_content"
+                    android:textColor="#FFF"
+                    android:layout_height="wrap_content"
+                    android:text="Air University" />
+                <Button
+                    android:id="@+id/results"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="48dp"
+                    android:text="Results" />
+
+
+            </RadioGroup>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
